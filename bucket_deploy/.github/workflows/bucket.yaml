@@ -1,6 +1,6 @@
-name: s3_backend
+name: s3
 
-on: [push]
+on: push
 
 env: 
    AWS_ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY}}
