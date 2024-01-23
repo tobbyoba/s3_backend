@@ -1,10 +1,13 @@
 module "s3" {
-    source = "git@github.com:tobbyoba/GitAction_s3_backend.git//s3-bucket"
-  
+  source = "git@github.com:tobbyoba/GitAction_s3_backend.git//s3-bucket"
+  region     = "us-east-1"
+  env        = "staging"
+  versioning = "Enabled"
+
 }
 provider "aws" {
-    region = "us-east-1"
-  
+  region = "us-east-1"
+
 }
 #
 terraform {
