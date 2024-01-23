@@ -1,5 +1,5 @@
 module "s3" {
-    source = "git@github.com:tobbyoba/GitAction_s3_backend.git//s3-module?ref=v1.2.0"
+    source = "git@github.com:tobbyoba/GitAction_s3_backend.git//s3-module"
   
 }
 provider "aws" {
