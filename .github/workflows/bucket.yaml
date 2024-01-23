@@ -1,7 +1,6 @@
 name: s3
 
-on: 
-  workflow_dispatch:
+on: push
 
 env: 
    AWS_ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY}}
